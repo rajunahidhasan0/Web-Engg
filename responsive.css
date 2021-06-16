@@ -1,0 +1,148 @@
+@media all and (max-width: 1218px) {
+	.title {
+		width:84%;
+    }
+}
+
+@media all and (max-width: 680px) {
+	.logo-area {
+		width: 100%;
+		float: none;
+		text-align:center;
+    }
+	.header-area .all {
+		width: 100%;
+    }
+	.menu-area {
+		width: 100%;
+		text-align:center;
+    }
+	.menu-area ul {
+		float: none;
+		padding-left:0;
+    }
+	.know-area h1 {
+		font-size: 35px;
+    }
+	.know-area h2 {
+		font-size: 17px
+    }
+	.know-area p {
+		font-size: 14px
+    }
+
+	.about-area .all {
+		width: 95%;
+    }
+
+	.ab h1 {
+		font-size: 35px;
+    }
+	.para p {
+		font-size: 14px;
+    }
+	.para span {
+		font-size: 21px
+    }
+
+	.service h1 {
+		font-size: 35px;
+    }
+	.service p {
+		margin: 0;
+    }
+	.service-area p {
+		font-size: 14px
+	}
+	.service-left .first-stage {
+		width: 100%;
+    }
+	.second-stage {
+		width: 100%;
+    }
+	.service-right img {
+		height: 781px;
+	}
+	.my h1 {
+		font-size: 35px;
+	}
+	.me h1 {
+		font-size: 35px;
+	}
+	.my-work-area p {
+		font-size: 13px;
+		line-height: 1.5em;
+	}
+	.contact-area p {
+		font-size: 13px;
+		line-height: 1.5em;
+	}
+	.footer-area h1 {
+		font-size: 26px;
+	}
+}
+@media all and (max-width: 476px) {
+	.menu-area ul li {
+		padding: 5px 3px
+    }
+	.know-area h1 {
+		font-size: 18px;
+    }
+	.know-area h2 {
+		font-size: 12px
+    }
+	.know-area p {
+		font-size: 10px
+    }
+	
+	.ab h1 {
+		font-size: 18px;
+    }
+	.para p {
+		font-size: 11px;
+    }
+	.para span {
+		font-size: 14px
+    }
+	
+	.title h2 {
+		font-size: 13px
+    }
+	.service h1 {
+		font-size: 18px;
+    }
+	.service-area p {
+		font-size: 11px
+	}
+	.service-left h2 {
+		font-size: 13px
+    }
+	.service-right img {
+		height: 957px;
+	}
+	.my h1 {
+		font-size: 18px;
+	}
+	.me h1 {
+		font-size: 18px;
+	}
+	.my-work-area p {
+		font-size: 11px;
+	}
+	.contact-area p {
+		font-size: 11px;
+	}
+	.footer-area h1 {
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

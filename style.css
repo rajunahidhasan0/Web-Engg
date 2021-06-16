@@ -1,0 +1,442 @@
+/*
+Theme Name: SoftTech-IT
+Theme URI: http://softtech-it.com 
+Description: this is custom designed template.
+
+*/
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Header Area
+*    2.1.0 - logo-area
+*    2.2.0 - menu-area
+ * 3.0 - know-area
+ * 4.0 - about-area
+ * 5.0 - title-area
+ * 6.0 - service-area  
+ *   6.1 - service-left
+ *   6.2 -service-right 
+ * 7.0 - my-work-area
+ * 8.0 - picture-area
+ * 9.0 - contact-area
+ * 10.0 - footer-area
+ *   10.1 - footer-top
+ *   10.2 - footer-bottom
+ */
+/** 
+	* 1.0 - body
+**/
+body {
+    font-family: "Open Sans", sans-serif
+    }
+
+/** 
+	* 2.0 - Header Area 
+**/
+.header-area {
+    background: #02918D;
+    width: 100%;
+    text-transform: uppercase
+    }
+
+.header-area a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 12px
+    }
+
+.header-area .all {
+    width: 95%;
+    margin: 0 auto
+    }
+
+/** 
+	* 2.1 - logo-area
+**/
+.logo-area {
+    width: 20%;
+    float: left;
+    overflow: hidden
+    }
+
+.logo-area img {
+    padding-top: 20px
+    }
+
+/** 
+	* 2.2 - menu-area
+**/
+.menu-area {
+    width: 80%;
+    overflow: hidden
+    }
+
+.menu-area ul {
+    margin: 0;
+    list-style: none;
+    float: right
+    }
+
+.menu-area ul li {
+    display: inline-block;
+    padding: 20px 17px
+    }
+
+.menu-area ul li:hover {
+    background: black
+    }
+
+/** 
+	* 3.0 - know-area
+**/
+.know-area {
+    background: url(images/court.jpg) no-repeat 0 0/100% 100%;
+    padding: 200px 0;
+    color: #fff;
+    text-align: center
+    }
+
+.know-area h1 {
+    margin: 15px;
+    font-size: 78px;
+    }
+
+.know-area h2 {
+    margin: 0;
+    font-size: 30px
+    }
+
+.know-area p {
+    margin: 0;
+    padding-bottom: 25px;
+    font-size: 18px
+    }
+
+.know-area i {
+    font-size: 80px;
+    margin-bottom: 7px
+    }
+
+.know-area h3 {
+    border: 1px solid #CFC91D;
+    background: #CFC91D;
+    display: inline-block;
+    padding: 3px 20px;
+    -moz-transition: 3s;
+    -o-transition: 3s;
+    -webkit-transition: 3s;
+    transition: 3s
+    }
+
+.know-area h3:hover {
+    background: -moz-linear-gradient(#f0f0e8, #FFF);
+    background: -o-linear-gradient(#f0f0e8, #FFF);
+    background: -webkit-linear-gradient(#f0f0e8, #FFF);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0e8), color-stop(1, #FFF));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f0f0e8, EndColorStr=#FFF)";
+    background: linear-gradient(#f0f0e8, #FFF)
+    }
+
+.know-area a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase
+    }
+
+/** 
+	* 4.0 - about-area
+**/
+.about-area .all {
+    width: 72%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 70px
+    }
+
+.ab h1 {
+    font-size: 44px;
+    color: #02918D;
+    margin: 70px 0 0
+    }
+
+.ab p {
+    color: #7e8287
+    }
+
+.para p {
+    font-size: 16px;
+    color: #7e8287
+    }
+
+.para span {
+    font-size: 23px
+    }
+
+/** 
+	* 5.0 - title-area
+ **/
+.title-area {
+    overflow: hidden;
+    padding-bottom: 70px
+    }
+
+.second {
+    width: 95%;
+    margin: 0 auto
+    }
+
+.title-area i {
+    font-size: 23px;
+    color: #02918D
+    }
+
+.title {
+    width: 16%;
+    float: left;
+    text-align: center;
+    padding: 0 52px
+    }
+
+.title h2 {
+    color: #7e8287;
+    font-size: 16px
+    }
+
+.title p {
+    color: #7e8287;
+    font-size: 11px
+    }
+
+/** 
+	* 6.0 - service-area  
+**/
+.service-area {
+    overflow: hidden;
+    background: #f0f0e8
+    }
+
+.service h1 {
+    color: #02918c;
+    font-size: 46px;
+    margin-bottom: 0
+    }
+
+.service p {
+    color: #7e8287;
+    margin: 0 0 0 14px
+    }
+
+/** 
+	* 6.2 - service-left
+ **/
+.service-left {
+    width: 50%;
+    float: left;
+    overflow: hidden
+    }
+
+.service-left .team {
+    width: 80%;
+    margin: 0 auto
+    }
+
+.service-left p {
+    color: #7e8287;
+    margin-bottom: 37px
+    }
+
+.service-left h2 {
+    color: #7e8287;
+    font-size: 16px
+    }
+
+.service-left .first-stage {
+    width: 34%;
+    float: left;
+    overflow: hidden;
+    line-height: 1.05em
+    }
+
+.first-stage p {
+    font-size: 11px
+    }
+
+.second-stage {
+    float: right;
+    overflow: hidden;
+    font-size: 11px;
+    line-height: 1.5em;
+    width: 34%
+    }
+
+.service-left i {
+    font-size: 35px;
+    color: #02918D
+    }
+
+/** 
+	* 6.2 - service-right 
+ **/
+.service-right {
+    overflow: hidden;
+    width: 50%
+    }
+
+.service-right img {
+    height: 660px;
+    width: 100%
+    }
+
+/** 
+	* 7.0 - my-work-area
+ **/
+.my-work-area {
+    overflow: hidden;
+    text-align: center
+    }
+
+.my-work-area .all {
+    width: 57%;
+    margin: 0 auto
+    }
+
+.my h1 {
+    color: #02918c;
+    font-size: 46px;
+    margin: 30px 0 0 0
+    }
+
+.my p {
+    color: #7e8287
+    }
+
+.my-work-area p {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 2.5em
+    }
+
+/** 
+	* 8.0 - picture-area
+ **/
+.picture {
+    overflow: hidden
+    }
+
+.picture img {
+    margin-bottom:;
+    }
+.picture .first-pic {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+	}
+.picture .second-pic {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+	}
+
+
+
+/** 
+	* 9.0 - contact-area
+ **/
+.contact-area {
+    text-align: center;
+    padding-bottom: 40px
+    }
+
+.contact-area .all {
+    width: 57%;
+    margin: 0 auto
+    }
+
+.me h1 {
+    font-size: 46px;
+    color: #02918C;
+    margin: 50px 0 0 0
+    }
+
+.contact-area p {
+    color: #7e8287;
+    line-height: 2em;
+    margin: 0
+    }
+
+/** 
+	* 10.0 - footer-area
+ **/
+.footer-area {
+    background: #0b0b0b;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase
+    }
+	.footer-area h1 {
+		font-size: 35px;
+	}
+
+.footer-area .all {
+    padding-top: 30px
+    }
+
+/** 
+	* 10.1 - footer-top
+ **/
+.footer-top a {
+    text-decoration: none;
+    color: #FFF
+    }
+
+.footer-top .first hr {
+    width: 50%
+    }
+
+.footer-top .second hr {
+    width: 48%
+    }
+
+.footer-top .third hr, .footer-top .forth hr {
+    width: 70%
+    }
+
+.footer-top .sub {
+    border: 1px solid #CFC91D;
+    background: #CFC91D;
+    display: inline-block;
+    padding: 12px 65px;
+    -moz-transition: 3s;
+    -o-transition: 3s;
+    -webkit-transition: 3s;
+    transition: 3s;
+    overflow: hidden;
+    color: black
+    }
+
+.footer-top .sub:hover {
+    background: -moz-linear-gradient(#f0f0e8, #FFF);
+    background: -o-linear-gradient(#f0f0e8, #FFF);
+    background: -webkit-linear-gradient(#f0f0e8, #FFF);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0e8), color-stop(1, #FFF));
+    filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f0f0e8, EndColorStr=#FFF)";
+    background: linear-gradient(#f0f0e8, #FFF)
+    }
+
+.footer-top .sub a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase
+    }
+
+/** 
+	* 10.2 - footer-bottom
+ **/
+.footer-bottom {
+    background: #000;
+    padding: 30px;
+    color: #FFF
+    }
